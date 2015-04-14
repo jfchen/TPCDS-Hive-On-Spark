@@ -3,7 +3,7 @@
 You can submit a Spark SQL job that accesses the existing Hive metastore; once there, you
 will be able to run queries against your existing Hive tables. This Scala source allows
 you run 38 out of the 99 TPCDS queries (The Hive version supported by Spark SQL in the 
-current release of [IBM Open Platform](http://g01zcdwas002.ahe.pok.ibm.com/software/data/infosphere/hadoop/trials.html) is 0.13.1; the Hive version shipped in IBM Open 
+current release of ```[IBM Open Platform](http://g01zcdwas002.ahe.pok.ibm.com/software/data/infosphere/hadoop/trials.html)``` is 0.13.1; the Hive version shipped in IBM Open 
 Platform 4.0.0 is 0.14.0. Any new features introduced in Hive 0.14.0 will not be supported. 
 There are documented unsupported features for Hive support. Refer to the 
 Spark online documentation for more detailed information.)
