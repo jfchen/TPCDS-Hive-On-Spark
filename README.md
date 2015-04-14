@@ -3,9 +3,8 @@ Running TPCDS queries on Spark
 You can submit a Spark SQL job that accesses the existing Hive metastore; once there, you
 will be able to run queries against your existing Hive tables. This Scala source allows
 you run 38 out of the 99 TPCDS queries (The Hive version supported by Spark SQL in the 
-current release of 
-```[IBM Open Platform](http://g01zcdwas002.ahe.pok.ibm.com/software/data/infosphere/hadoop/trials.html)
-```
+current release of IBM Open Platform available at
+http://g01zcdwas002.ahe.pok.ibm.com/software/data/infosphere/hadoop/trials.html
 is 0.13.1; the Hive version shipped in IBM Open 
 Platform 4.0.0 is 0.14.0. Any new features introduced in Hive 0.14.0 will not be supported. 
 There are documented unsupported features for Hive support. Refer to the 
@@ -55,10 +54,10 @@ The list of TPCDS queries you can use to test is as follows:
 Setup
 
 We assume you have a TPCDS database, have set up TPCDS tables and have loaded data.
-If not, please refer to the TPCDS benchmark site for more information on data
-generation and DDLs for database creation. At the end of the process, you should
-see something similar to the following output in the Hive shell:
-
+If not, please refer to the TPCDS benchmark site for more information 
+http://www.tpc.org/tpcds/
+on data generation and DDLs for database creation. At the end of the process, 
+you should see something similar to the following output in the Hive shell:
 
 	Logging initialized using configuration in file:/etc/hive/conf/hive-log4j.properties
 	hive> use tpcds1000g;
